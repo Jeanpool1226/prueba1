@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap');
+
+h1,h2{
+    color: chocolate;
+    font-family: 'Rajdhani', sans-serif;
+     width: 500;
+     
+
+}
+p{
+    color: rgb(1, 41, 28);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+nav{
+    background-color: rgb(248, 248, 243);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+     font-size:1.5em ;
+     font-family: 'Rajdhani', sans-serif;
+     padding: 20px;
+    
+    }
+
+
+nav li:hover> ul{
+    display: block;
+    
+}
+    
+   
+nav ul li  a:hover{
+        color: rgb(77, 5, 5);
+        text-decoration: overline;
+    }
+
+header img{
+    width: 100%;
+}  
+.texte-center{
+    text-align: center;
+}
+
+.promociones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.promociones figure{
+  width: 25%;
+  border-radius: 2px;
+  border: solid rgb(70, 71, 73)1px;
+}
+
+.promociones figure p{
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    margin: 15px 0;
+    text-align: center;
+    color: rgb(15, 58, 15);
+}
+.promociones figure figcaption{
+    color: rgb(18, 25, 26);
+    font-size: 1.3rem;
+    margin-top: 15px;
+
+}
+ 
+.promociones figure button{
+    border: solid;
+    color: rgb(80, 19, 221);
+    background-color: rgb(245, 243, 242);
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.letras{
+    font-family: 'Rajdhani', sans-serif; 
+    width: 500;
+}
+
+
+body{
+    background-color: rgb(240, 244, 245);
+}
+
+
+footer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 70px;
+    background-color: rgb(182, 185, 190);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+footer svg{
+    fill: rgb(26, 9, 187);
+    width: 50px;
+    margin-right: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    color: rgb(11, 2, 63);
+    font-size: 1.2rem;
+}
+
+table tr,th,td{
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 50%;
+    font-family: 'Rajdhani', sans-serif;
+    width: 400;
+                   
+}
+.horarios{
+    border: 1px solid black;
+    border-radius: 1px;
+    width: 50%;
+    font-family: 'Rajdhani', sans-serif;
+    width: 400;
+    
+  
+}
+tr:hover{background-color: rgb(94, 117, 117);}
+
+.grid{
+    width: 100%;
+    display: grid;
+
+}
+
+.grid-template-columnas-row{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% ;
+    column-gap: 10px; ;
+    row-gap: 20px;
+
+}
